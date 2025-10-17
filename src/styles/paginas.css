@@ -1,0 +1,23 @@
+.content-historia,
+.content-classico,
+.content-personagem,
+.content-lancamento,
+.content-rede,
+.content-menu{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(85, 131, 171);
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+

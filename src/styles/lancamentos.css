@@ -1,0 +1,55 @@
+.content-lancamento {
+    display: grid;
+    grid-template-columns: repeat(5, 150px); /* 5 colunas, o grid quebra e poe a quatidade de linhas e colunas qu eeu quero*/
+    flex-wrap: wrap;            /* Permite quebrar linha se não couber */
+    justify-content: center;     /* Centraliza horizontalmente */
+    gap: 100px;                   /* Espaço entre os cards */
+    padding: 20px;
+    background-color: #4578b3;
+}
+
+
+.cards-lancamentos{
+    max-width: 150px;  
+    margin: 20 auto 20 auto;              /* Reduzi o tamanho para caber mais cards */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-out;
+}
+
+
+
+.cards-lancamentos:hover{
+    transform: scale(1.1);       /* Aumentei menos para não passaer */
+    cursor: pointer;
+}
+
+.cards-lancamentos img {
+    width: 100%;
+    display: block;
+}
+
+.cards-lancamentos figcaption {
+    padding: 10px;
+    background-color:#A7C7E7;
+}
+
+.cards-lancamentos h3 {
+    margin: 5px 0;
+    font-size: 16px;             /* Ajustei para caber no card menor */
+    color: #0b5d7d;
+}
+
+.cards-lancamentos p {
+    margin: 3px 0;
+    font-size: 12px;             /* Ajustei para caber */
+    color: #555;
+}
+.cards-lancamentos a{
+    text-decoration:none ;
+}
+
+       

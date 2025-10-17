@@ -1,0 +1,14 @@
+.container-footer {
+  position: flex;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 10vh;
+  background-color: #0A1172;
+  color: #F5D547;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* joga um pro lado e outro pro outro */
+  padding: 0 20px;
+}
+
