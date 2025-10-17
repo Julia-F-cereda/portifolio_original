@@ -1,14 +1,36 @@
 .container-footer {
-  position: flex;
   width: 100%;
-  bottom: 0;
-  left: 0;
   height: 10vh;
   background-color: #0A1172;
   color: #F5D547;
   display: flex;
   align-items: center;
-  justify-content: space-between; /* joga um pro lado e outro pro outro */
+  justify-content: space-between; 
   padding: 0 20px;
 }
 
+.icones {
+  justify-content: flex-start;
+}
+
+
+.barra input{
+    justify-content: flex-start;
+    padding: 7px 12px;
+    border: 1px solid cornsilk;
+    border-radius: 20px;
+    outline: none;
+    transition: border-color 0.3 ease;
+    width: 180px;
+    color: dodgerblue;
+}
+
+.barra input:focus{
+    border-color: rgb(49, 195, 231);
+    box-shadow: 0 0 8px  rgb(144, 180, 247);
+}
+
+.h2{
+    position: absolute;
+    width: 50;
+}
